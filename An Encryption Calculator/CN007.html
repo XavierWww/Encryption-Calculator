@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>CN007</title>
+	<script type="text/javascript" src="additional/encryption.js"></script>
+	<link rel="stylesheet" type="text/css" href="additional/style.css">
+</head>
+
+<body>
+	<div>
+		<h1 align="center" style="color:black"><span class="tool" style="color:#00FA9A;float:left;font-size:12px">Author:&nbsp;Wu&nbsp;Xiang</span>CN007 Project:&nbsp;Encryption Calculator</h1>
+		<table width=500px style="border-collapse:separate; border-spacing:16px;">
+			<tbody>
+				<tr>
+					<td class="tool"><label for="msg">Plaintext</label></td>
+					<td class="tool"><input id="msg" type="text" maxlength="32" style="width:600px"></td>
+				</tr>
+
+				<tr>
+					<td class="tool"><label for="key">Key</label></td>
+					<td class="tool"><input id="key" type="text" maxlength="32" style="width:600px"></td>
+				</tr>
+
+				<tr>
+					<td class="tool"><label for="ciphertext">Ciphertext</label></td>
+					<td class="tool"><input id="ciphertext" type="text" value="" readonly="" style="width:600px; color:red;"></td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td><input type="radio" name="choose" value="DES">DES</td>
+					<td><input type="radio" name="choose" value="RC4">RC4</td>
+					<td><button type="button" class="b" onclick="show()">Encrypt</button></td>
+				</tr>			
+			</tbody>	
+		<br/>
+		</table>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+		body {
+			background-color: #87CEFA;
+			background-image: url("Bg.png");
+			background-size: 43.5%;
+			background-repeat: no-repeat;
+			color: #FFF;
+			background-position:center 370px;
+			font-family: "Arial";
+		}
+
+		div {
+			background-color: #587E8C;
+			border-radius: 20px;
+			margin: 0 auto;
+			max-width: 800px;
+			max-height: 800px;
+			padding: 20px;
+		}
+
+		h3 {
+			background-color: #45626E;
+			text-align: center;
+			padding: 5px;
+			border-radius: 20px;
+			color: #FFF;
+		}
+
+		.step {
+			margin-left: 10px;
+			float: left;
+		}
+
+		.tool {
+			max-width: 30px;
+			padding-right: 30px;
+			text-align: right;
+		}
+		
+		input {
+			background-color: #45626E;
+			border-radius: 20px;
+			border: none;
+			color: #FFF;
+			font-family: "Verdana";
+			padding: 3px;
+			text-align: center;
+			width: 100%;
+		}
+
+		#output {
+			background-color: #FAF2EC;
+			border-radius: 0;
+			color: #000;
+			font-family: "Verdana";
+			font-size: 0.7em;
+			height: 600px;
+			overflow-y: scroll;
+			resize: vertical;
+			text-align: left;
+		}
+
+		table {
+			background-color: inherit;
+			border-collapse: collapse;
+			border-color: #EEE;
+			color: inherit;
+			font-size: inherit;
+			text-align: center;
+		}
+
+		tr {
+			width: 100%;
+		}
+		
+		button{
+			width:85px;
+			height: 35px;
+			background-color: #00BCD4;
+			color:#FFFFFF;
+			border-radius: 3px;
+			text-align: center;
+			line-height: 35px;
+			font-size:13.5px;
+			border:1px solid #00BCD4;
+			text-decoration: none;
+			cursor: pointer;
+			font-weight:bold;
+
+
+		}
+
+		button:hover{
+			box-shadow: 0.1em 0.1em #009688;			
+		}
+
+		button:active{
+			background-color: red;
+		}
+		
+	
