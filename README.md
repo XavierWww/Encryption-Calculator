@@ -1,2 +1,2 @@
 # A Simple Encryption Calculator
-Using DES and RC4 encryption algorithm
+Using DES and RC4 Encryption Algorithm
