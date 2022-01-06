@@ -1,7 +1,7 @@
 ###	Encryption Calculator
 
 ### Author 
-Xiang WU
+Xavier WU
 
 ### Encryption Calculator
 This project is for designing an encryption calculator. In short, I just have implemented two encrytion algorithm: DES and RC4.
